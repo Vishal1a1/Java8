@@ -1,4 +1,4 @@
-package coding_questions.desing_patterns.Factory_design;
+package design_patterns.Factory_design;
 
 public class main {
     public static void main(String[] args) {

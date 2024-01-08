@@ -1,4 +1,4 @@
-package coding_questions.desing_patterns.Factory_design;
+package design_patterns.Factory_design;
 
 public class shapeFactory {
     

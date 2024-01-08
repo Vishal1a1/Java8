@@ -1,4 +1,4 @@
-package coding_questions.desing_patterns.singleton_design;
+package design_patterns.singleton_design;
 
 public class Singleton {
     
