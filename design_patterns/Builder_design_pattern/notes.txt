@@ -1,0 +1,25 @@
+Builder pattern builds a complex object using simple objects and using a step by step appraoch.
+This type of design pattern comes under 'creational design' pattern as this pattern provides
+one of the best ways to create an object.
+
+A Builder class builds the final object step by step. This builder is independent of other objects.
+
+Item interface - abstract class Burger & abstract class ColdDrink
+Packing interface - paperWrap class & Bottle class
+abstract class Burger - class VegBurger & class NonVegBurger
+abstract class ColdDrink - class Pepsi & class Coke
+
+class Meal
+- List<Item>
+- addItem()
+- getTotalCost()
+- printItems()
+
+class MealBulider
+- prepareVegMeal()
+- prepareNonVegMeal()
+
+class BuilderPatternDemo
+- print VegMeal details
+- print NonVegMeal details
+
