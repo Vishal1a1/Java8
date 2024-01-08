@@ -1,0 +1,3 @@
+Abstract Factory design pattern is a Factory-of-Factory design pattern.
+It comes under 'creational design pattern', used to create objects internally,
+without exposing creational logic to Clients.
