@@ -1,0 +1,14 @@
+Factory design pattern is one of the most used design patterns in Java. This type of design pattern comes under 'Creational Pattern'.
+As this pattern provides one of the best ways to create an Object.
+
+In Factory pattern, we create objects without exposing the creation logic for the client
+and refer to newly created objects through a common interface.
+
+Here, in this example : 
+
+shape is an interface,
+circle, sqaure, rectangle are the classes which implements shape interface
+shapeFctory is a class used to create Objects, without exposing creation logic to Client.
+In main class, we are passing 'CIRCLE' OR 'RECTANGLE', OR 'SQUARE' to create Objects internally.
+
+So, it is a creational design pattern used to create objects internally without exposing the creation logic to Clients.

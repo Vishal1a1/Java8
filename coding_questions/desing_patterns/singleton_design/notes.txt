@@ -1,0 +1,5 @@
+Singleton design pattern is used to create only one single instance of a class and 
+provides a global point of access to it.
+
+here in this example : 
+singleton class is created with only one single instance.
